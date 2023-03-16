@@ -1,0 +1,23 @@
+:root {
+    --white: rgb(238, 238, 238);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(44, 73, 49);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: var(--white);
+    overflow: hidden;
+    text-align: center;
+}
+
+main {
+    margin: 50px 20vw;
+}
+
+main > p {
+    color: var(--white);
+}
